@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+#AboutMe, #MySkills, #My-Projects, #Contact, #Formation, #Stay-in-touch{
+    padding: 20px;
+    background-color:#f8f8fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.navbar-image {
+    height: 100px;
+    width: auto; 
+    margin-left: auto; 
+}
+
+
+input, textarea, button {
+    margin: 10px 0; 
+}
+
+#myProjects {
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.project {
+    width: 300px; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.project h5 {
+    margin-top: 10px;
+}
+
+.project-info {
+    display: none; 
+}
+
+.project:hover .project-info {
+    display: block; 
+}
+
+
+
+#Contact a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#Contact a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header .navbar {
+        flex-direction: column;
+    }
+}
